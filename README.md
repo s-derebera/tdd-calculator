@@ -8,3 +8,8 @@ python3 -m venv env
 ```sh
 source ./env/bin/activate
 ```
+
+### Running tests
+```sh
+python -m unittest tests/
+```
