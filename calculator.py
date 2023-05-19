@@ -5,5 +5,6 @@ class Calculator:
     def value(self):
         return self.__value
     
-    def add(self, number):
+    def sum(self, number):
         self.__value += number
+        return self
